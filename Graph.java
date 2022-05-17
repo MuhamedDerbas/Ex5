@@ -130,7 +130,7 @@ public class Graph<E> {
             if (e.equals(target)) //Target was reached.
                 return temp;
         }
-        return bfs(source, target, routes); //Recursive call.
+        return bfs(source, target, routes);
     }
 
     private boolean hasDuplicates(ArrayList<E> vec) {
